@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
 	"appid": "wx7681ea57d232410d",
-	"projectname": "wx-signUp-1",
+	"projectname": "wx-signUp",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
