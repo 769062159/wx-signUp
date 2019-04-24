@@ -1,6 +1,9 @@
 <!--pages/cover/cover.wxml-->
 <view class="container cover">
-  <view class="userinfo">
-    sfs
-  </view>
+  <image 
+  src='../../images/cover.png'
+  mode='scaleToFill'
+  class='cover-img'
+  bindtap="coverUrl"
+  ></image>
 </view>

@@ -1,9 +1,15 @@
 // pages/baoming/baoming.js
 Page({
-
+	coverUrl(e){
+		wx.switchTab({
+			url: '../index/index',
+			success: function () { }
+		})
+	},
 	/**
 	 * 页面的初始数据
 	 */
+
 	data: {
 
 	},

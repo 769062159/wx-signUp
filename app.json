@@ -13,14 +13,21 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+	  "color":"#4d4d4d",
+	  "selectedColor": "#007ACC",
+		"backgroundColor": "#Fff",
 	"list": [
 		{
 			"pagePath": "pages/index/index",
-			"text": "活动"
+			"text": "活动",
+			"iconPath": "images/activity.png",
+			"selectedIconPath": "images/activity-blue.png"
 		},
 		{
 			"pagePath": "pages/my/my",
-			"text": "我的"
+			"text": "我的",
+			"iconPath": "images/self.png",
+			"selectedIconPath": "images/self-blue.png"
 		}
 	]
 	}
