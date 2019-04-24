@@ -1,7 +1,8 @@
 {
   "pages":[
+	"pages/cover/cover",
     "pages/index/index",
-    "pages/cover/cover",
+    
 	"pages/my/my",
 	"pages/logs/logs"
   ],
@@ -10,5 +11,17 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar": {
+	"list": [
+		{
+			"pagePath": "pages/index/index",
+			"text": "活动"
+		},
+		{
+			"pagePath": "pages/my/my",
+			"text": "我的"
+		}
+	]
+	}
 }
