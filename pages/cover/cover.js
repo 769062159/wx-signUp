@@ -1,4 +1,4 @@
-// pages/baoming/baoming.js
+
 Page({
 	coverUrl(e){
 		wx.switchTab({
