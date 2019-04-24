@@ -1,0 +1,9 @@
+<!--pages/information/information.wxml-->
+<view class='container'>
+  <view class='top'>
+    <view class='title'>{{title}}</view>
+    <view class='rule'>活动安排</view>
+  </view>
+  <view class='xuanchuan'><image src='../../images/1.jpg'></image></view>
+  <button class='apply' type='warn'>立即报名</button>
+</view>

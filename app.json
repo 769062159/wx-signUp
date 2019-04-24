@@ -1,17 +1,17 @@
 {
   "pages":[
-	"pages/cover/cover",
+	  "pages/cover/cover",
+	  "pages/my/my",
+	"pages/userInfo/userInfo",
     "pages/index/index",
-    
-	"pages/my/my",
+    "pages/information/information",
 	"pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#E93325",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black",
-	"backgroundColor": "red"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
 	  "color":"#4d4d4d",

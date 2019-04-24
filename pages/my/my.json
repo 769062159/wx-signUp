@@ -1,4 +1,8 @@
 {
 	"navigationBarTitleText": "我的",
-	"usingComponents": {}
+	"usingComponents": {
+		"van-button": "../../dist/button/index",
+		"van-collapse":"../../dist/collapse/index",
+		"van-collapse-item": "../../dist/collapse-item/index"
+	}
 }

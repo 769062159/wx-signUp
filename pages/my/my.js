@@ -7,13 +7,24 @@ Page({
 		motto: 'Hello World',
 		userInfo: {},
 		hasUserInfo: false,
-		canIUse: wx.canIUse('button.open-type.getUserInfo')
+		canIUse: wx.canIUse('button.open-type.getUserInfo'),
+		activeName: ['1']
+	},
+	selfUrl(){
+		wx.navigateTo({
+			url: '../userInfo/userInfo'
+		})
 	},
 	//事件处理函数
 	bindViewTap: function () {
 		wx.navigateTo({
 			url: '../cover/cover'
 		})
+	},
+	onChange(event) {
+		this.setData({
+			activeNames: event.detail
+		});
 	},
 	onLoad: function () {
 		if (app.globalData.userInfo) {

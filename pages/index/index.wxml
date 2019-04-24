@@ -1,4 +1,35 @@
 <!--index.wxml-->
 <view class="container">
-  
+  <view class='item' bindtap='itemTap'>
+    <image src="{{image}}"></image>
+    <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='time'>{{time}}</view>
+    </view>
+  </view>
+  <view class='item' bindtap='itemTap'>
+    <image src="{{image}}"></image>
+    <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='time'>{{time}}</view>
+    </view>
+  </view><view class='item' bindtap='itemTap'>
+    <image src="{{image}}"></image>
+    <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='time'>{{time}}</view>
+    </view>
+  </view><view class='item' bindtap='itemTap'>
+    <image src="{{image}}"></image>
+    <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='time'>{{time}}</view>
+    </view>
+  </view><view class='item' bindtap='itemTap'>
+    <image src="{{image}}"></image>
+    <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='time'>{{time}}</view>
+    </view>
+  </view>
 </view>
